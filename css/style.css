@@ -1,9 +1,29 @@
+.body {
+	/*background: repeating-linear-gradient(
+  to right,
+  #F7F5FF,
+  #F7F5FF 10px,
+  #F9F9FF 10px,
+  #F9F9FF 20px
+);;*/
+	background: url("../images/pattern-a.png") repeat;
+}
+
+.container {
+	background: #FFFFFF;
+}
+
+.p {
+	font-family: 'Raleway', sans-serif;
+}
+
 .overlay h1 {
 	color: #FFFFFF;
 	font-family: 'Parisienne', cursive;
-	font-size: 120px;
-	text-align: ;
+	font-size: 48px;
+	
 }
+/*
 @media screen and (max-width: 992px) {
         .overlay h1 {
     		font-size:85px;
@@ -18,9 +38,15 @@
         .overlay h1 {
     		font-size:40px;
     }
+}*/
+.overlay .glyphicon {
+	color: #FFFFFF;
+	
+	font-size: 40px;
+	
 }
 
-.overlay h2 {
+.overlay h3 {
 	color: #FFFFFF;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700 ;
@@ -28,42 +54,31 @@
 	font-size: 50px;
 }
 @media screen and (max-width: 992px) {
-        .overlay h2 {
+        .overlay h3 {
     		font-size:30px;
     }
 }
 @media screen and (max-width: 768px) {
-        .overlay h2 {
+        .overlay h3 {
     		font-size:25px;
     }
 }
 @media screen and (max-width: 568px) {
-        .overlay h2 {
+        .overlay h3 {
     		font-size:18px;
     }
 }
-.overlay img{
-	text-align: center;
-	margin: 0px;
+
+.overlay .mike{
+	padding-left: 20px;
 	
 }
 
-@media screen and (max-width: 992px) {
-        .overlay img {
-    		width: 65%;
-    }
+.overlay .tanya{
+	padding-right: 20px;
 }
-@media screen and (max-width: 768px) {
-        .overlay img {
-    		width: 55%;
-    }
-}
-@media screen and (max-width: 568px) {
-        .overlay img {
-    		width: 50%;
 
-    }
-}
+
 
 @media screen and (max-width: 568px) {
         .carousel-indicators{
@@ -151,37 +166,185 @@ span.countdown_amount {
 /*---------------------------*/
 /*  RSVP FORM*/
 /*---------------------------*/	
-/*input[type=radio] {
-	width: 40px;
-	height: 40px;
-}*/
-
-.rsvp-form {
-	margin: auto;
-	background-color: #dac17e;
-	padding: 20px 50px 50px 50px;
+.rsvp-section {
+	background-color: #D1E0D6;
+	margin-top: 100px;
+	padding: 25px 50px 50px 50px;
 }
 
-.rsvp-form h2 {
+.rsvp-section h1 {
+	font-family: 'Playfair Display SC', serif;
+	padding-bottom: 30px;
+	color: #FFFFFF;
+}
+
+.rsvp-rbutton {
+	padding-bottom: 30px;
 	text-align: center;
-	font-family: 'Aguafina Script', cursive;
-	font-size: 65px;
-	color: #FFFFFF
+	
 }
+@media screen and (max-width: 992px) {
+        .rsvp-rbutton {
+    		text-align: left;
+    		padding-left: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+        .rsvp-rbutton {
+    		text-align: left;
+    		padding-left: 20px;
+    }
+}
+@media screen and (max-width: 568px) {
+        .rsvp-rbutton {
+    		text-align: left;
+    		padding-left: 20px;
 
+    }
+}
 /*---------------------------*/
 /*  LOCATIONS   */
 /*---------------------------*/	
 .locations {
-	margin: 25px;
-
-	
+	padding-top: 75px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-bottom: 50px;
 }
-
-.h3 {
+.locations h3{
 	font-family: 'Playfair Display SC', serif;
 }
+.locations p{
+	padding-top: 10px;
+	text-align: center;
+}
+.ceremony {
+	background-color: #A4B5A6;
+	
+
+}
+.ceremony img { 
+	outline: 1px solid white;
+  	outline-offset: -6px;
+}
+
+.reception {
+	background-color: #A4B5A6;
+	
+}
+.reception img { 
+	outline: 1px solid white;
+  	outline-offset: -6px;
+}
+/*---------------------------*/
+/*  MAP   */
+/*---------------------------*/	
  .map{
- 	margin: 50px 40px;
+ 	margin: 30px 5px 20px 5px;
 
  }
+
+ .legend {
+ 	background-color: #DADADA;
+ 	height: auto;
+ 	margin-top: 20px;
+ 	outline: 1px solid white;
+  	outline-offset: -6px;
+  	font-family: 'Raleway', sans-serif;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+
+ }
+
+ .legend h3 {
+ 	font-family: 'Playfair Display SC', serif;
+ 	color: #FFFFFF;
+ 	text-align: center;
+
+ }
+
+/*---------------------------*/
+/*  WEEKEND PLANS   */
+/*---------------------------*/	
+.plans {
+ 	background-color: #D1E0D6;
+ 	height: auto;
+ 	
+ 	font-family: 'Raleway', sans-serif;
+ 	padding-bottom: 30px;
+ 	line-height: 1.65;
+
+ 	
+ }
+
+ .plans h1 {
+ 	font-family: 'Parisienne', cursive;
+ 	font-size: 50px;
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	border-bottom: 1px solid #FFFFFF;
+ 	border-top: 1px solid #FFFFFF;
+	background: url("../images/pattern-50xa.png") repeat;
+ }
+
+ .plans p {
+ 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+    padding-bottom: 30px;
+ }
+
+@media screen and (max-width: 768px) {
+        .plans p {
+    		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+		    -moz-column-count: 2; /* Firefox */
+		    column-count: 2;
+		    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+		    -moz-column-gap: 30px; /* Firefox */
+		    column-gap: 30px;
+    }
+}
+@media screen and (max-width: 568px) {
+        .plans p {
+    		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+		    -moz-column-count: 1; /* Firefox */
+		    column-count: 1;
+		    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+		    -moz-column-gap: 30px; /* Firefox */
+		    column-gap: 30px;
+		    text-align: center;
+    }
+}
+
+.plans li {
+	text-align: center;
+}
+/*---------------------------*/
+/*  FOOTER   */
+/*---------------------------*/	
+.bottom-foot{
+	position: relative;
+	z-index: 1;
+	max-height: 300px;
+	background-image: url("../images/rings-noir.jpg") no-repeat;
+	background-color: 262825;
+}
+
+.bottom-inner {
+	position: absolute;
+	z-index: 10;
+}
+
+
+ .bottom-foot .middle {
+ 	
+ 	color: #FFFFFF;
+ 	font-family: 'Raleway', sans-serif;
+ 	font-weight: 700;
+
+ }
+
