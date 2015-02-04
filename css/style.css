@@ -6,88 +6,16 @@
   #F9F9FF 10px,
   #F9F9FF 20px
 );;*/
-	background: url("../images/pattern-a.png") repeat;
+	background: url("../images/pattern-8rd8.png") repeat;
 }
 
 .container {
 	background: #FFFFFF;
+	background: url("../images/pattern-56vk.png") repeat;
 }
 
-.p {
-	font-family: 'Raleway', sans-serif;
-}
-
-.overlay h1 {
-	color: #FFFFFF;
-	font-family: 'Parisienne', cursive;
-	font-size: 48px;
-	
-}
-/*
-@media screen and (max-width: 992px) {
-        .overlay h1 {
-    		font-size:85px;
-    }
-}
-@media screen and (max-width: 768px) {
-        .overlay h1 {
-    		font-size:50px;
-    }
-}
-@media screen and (max-width: 568px) {
-        .overlay h1 {
-    		font-size:40px;
-    }
-}*/
-.overlay .glyphicon {
-	color: #FFFFFF;
-	
-	font-size: 40px;
-	
-}
-
-.overlay h3 {
-	color: #FFFFFF;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700 ;
-	text-align: ;
-	font-size: 50px;
-}
-@media screen and (max-width: 992px) {
-        .overlay h3 {
-    		font-size:30px;
-    }
-}
-@media screen and (max-width: 768px) {
-        .overlay h3 {
-    		font-size:25px;
-    }
-}
-@media screen and (max-width: 568px) {
-        .overlay h3 {
-    		font-size:18px;
-    }
-}
-
-.overlay .mike{
-	padding-left: 20px;
-	
-}
-
-.overlay .tanya{
-	padding-right: 20px;
-}
-
-
-
-@media screen and (max-width: 568px) {
-        .carousel-indicators{
-    		width: 50%;
-
-    }
-}
 /*---------------------------*/
-/* Image SLIDER main banner	 */
+/* MAIN BANNER - OVERLAY */
 /*---------------------------*/	
 
 .carouel-inner{
@@ -108,129 +36,299 @@
    
 }
 
-/*---------------------------*/
-/*  COUNTDOWN 	clock */
-/*---------------------------*/	
-
-.countdown_container{
-	width:100%;
-	height:100px;
-	padding:10px 0 10px 0;
-	background-color: #b1c3ab;
-}
-.countdown_container h2{
-	text-align:left;
-	color:#FFFFFF;
-	padding:0 0 0 20px;
-	font-size:26px;
-	display: inline;
-
-} /*
-.hasCountdown{
-	width:100%;
-	padding:20px 0 20px 0;
-	text-align:center;
-}
-.countdown_rtl {
-	direction: rtl;
-}
-.countdown_holding span {
-	color: #888;
-}
-.countdown_row {
-	clear: both;
-	width: 100%;
-	padding:0px;
-	text-align: center;
-}
-.countdown_section {
-	display:inline-block;
-	text-align: center;
-	width:148px;
-	height:125px;
-	padding:0px 0 0 0;
-	margin:0 12px;
-	background:url(images/countdown_frame.png) no-repeat center;
-	text-align:center;
-	font-size:36px;
-	color:#FFFFFF;
-	text-transform:lowercase;
-}
-span.countdown_amount {
-	font-size:80px;
-	color:#FFFFFF;
-	font-weight:700;
-	letter-spacing:-0.5px;
-}
-*/
-/*---------------------------*/
-/*  RSVP FORM*/
-/*---------------------------*/	
-.rsvp-section {
-	background-color: #D1E0D6;
-	margin-top: 100px;
-	padding: 25px 50px 50px 50px;
-}
-
-.rsvp-section h1 {
-	font-family: 'Playfair Display SC', serif;
-	padding-bottom: 30px;
+.overlay h1 {
 	color: #FFFFFF;
-}
-
-.rsvp-rbutton {
-	padding-bottom: 30px;
-	text-align: center;
+	font-family: 'Parisienne', cursive;
+	font-size: 105px;
+	padding-top: 25px;
 	
 }
+
 @media screen and (max-width: 992px) {
-        .rsvp-rbutton {
-    		text-align: left;
-    		padding-left: 20px;
+        .overlay h1 {
+    		font-size:85px;
+    		padding-top: 0px;
     }
 }
 @media screen and (max-width: 768px) {
-        .rsvp-rbutton {
-    		text-align: left;
-    		padding-left: 20px;
+        .overlay h1 {
+    		font-size:65px;
     }
 }
 @media screen and (max-width: 568px) {
-        .rsvp-rbutton {
-    		text-align: left;
-    		padding-left: 20px;
+        .overlay h1 {
+    		font-size:40px;
+    		padding-top: 0px;
+    }
+}
+.glyphicon {
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.overlay h3 {
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700 ;
+	text-align: ;
+	font-size: 40px;
+}
+@media screen and (max-width: 992px) {
+        .overlay h3 {
+    		font-size:30px;
+    }
+}
+@media screen and (max-width: 768px) {
+        .overlay h3 {
+    		font-size:28px;
+    }
+}
+@media screen and (max-width: 568px) {
+        .overlay h3 {
+    		font-size:18px;
+    		font-weight: 400 ;
+    }
+}
+
+.overlay .mike{
+	padding-left: 20px;
+	
+}
+
+.overlay .tanya{
+	padding-right: 20px;
+}
+
+
+
+@media screen and (max-width: 568px) {
+        .carousel-indicators{
+    		width: 50%;
 
     }
 }
+
+.header {
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 568px) {
+        .header {
+    		margin-bottom: 10px;
+    }
+}
+/*---------------------------*/
+/*  WEEKEND PLANS   */
+/*---------------------------*/	
+.plans {
+ 	height: auto;
+ }
+
+@media screen and (max-width: 568px) {
+        .plans {
+    		text-align: center;
+    }
+}
+
+.plans h2{
+	margin-top: 0px;
+}
+.plans h4 b{
+	font-family: 'Playfair Display SC', serif;
+}
+
+.intro {
+	padding-bottom: 30px;
+	border-bottom: 1px dotted #9F9DA1;
+	
+}
+
+
+ .thursday{
+	padding: 25px 15px;
+ 	min-height: 275px;
+ 	border-bottom: 1px dotted #9F9DA1;
+ 	
+ }
+ .thursday img{
+ 	float: left;
+ 	margin-right: 15px;
+ 	outline: 1px solid white;
+  	outline-offset: -6px;
+ }
+ .thursday h4 p{
+ 	float: right;
+ }
+ @media screen and (max-width: 568px) {
+        .thursday img{
+    		margin-bottom: 10px;
+    }
+}
+
+.friday{
+	clear: both;
+	padding: 25px 15px;
+ 	min-height: 275px;
+ 	margin-bottom: 25px;
+ 	margin-top: 25px;
+ 	border-bottom: 1px dotted #9F9DA1;
+
+ }
+ .friday img{
+ 	float: left;
+ 	margin-right: 15px;
+ 	outline: 1px solid white;
+  	outline-offset: -6px;
+ }
+ .friday h4 p{
+ 	float: right;
+ }
+ @media screen and (max-width: 568px) {
+        .friday img{
+    		margin-bottom: 10px;
+    }
+}
+.saturday{
+	clear: both;
+	padding: 25px 15px;
+ 	min-height: 275px;
+ 	border-bottom: 1px dotted #9F9DA1;
+}
+ .saturday img{
+ 	float: left;
+ 	margin-right: 15px;
+ 	outline: 1px solid white;
+  	outline-offset: -6px;
+ }
+ .saturday h4 p{
+ 	float: right;
+ }
+ @media screen and (max-width: 568px) {
+        .saturday img{
+    		margin-bottom: 10px;
+    }
+}
+
+.sunday{
+	clear: both;
+	padding: 25px 15px;
+ 	min-height: 275px;
+ 	margin-bottom: 25px;
+ 	margin-top: 25px;
+ 	border-bottom: 1px dotted #9F9DA1;
+}
+ .sunday img{
+ 	float: left;
+ 	margin-right: 15px;
+ 	outline: 1px solid white;
+  	outline-offset: -6px;
+ 	
+ }
+ .sunday h4 p{
+ 	float: right;
+ }
+ @media screen and (max-width: 568px) {
+        .sunday img{
+    		margin-bottom: 10px;
+    }
+}
+
+.monday {
+	clear: both;
+	padding: 25px 15px;
+ 	min-height: 275px;
+ 	margin-bottom: 25px;
+ 	border-bottom: 1px dotted #9F9DA1;
+ 	
+}
+ .monday img{
+ 	float: left;
+ 	margin-right: 15px;
+ 	outline: 1px solid white;
+  	outline-offset: -6px;
+ }
+ .monday h4 p{
+ 	float: right;
+ }
+ @media screen and (max-width: 568px) {
+        .monday img{
+    		margin-bottom: 10px;
+    }
+}
+
+.summer {
+	clear: both;
+	padding: 25px 15px;
+ 	min-height: 275px;
+ 	margin-bottom: 50px;
+ 	border-bottom: 1px dotted #9F9DA1;
+ 	padding-bottom: 30px;
+}
+ .summer img{
+ 	float: left;
+ 	margin-right: 15px;
+ 	outline: 1px solid white;
+  	outline-offset: -6px;
+ }
+ .summer h4 p{
+ 	float: right;
+ }
+ @media screen and (max-width: 568px) {
+        .summer img{
+    		margin-bottom: 10px;
+    }
+}
+/*---------------------------*/
+/*  SIDEBAR       */
+/*---------------------------*/
+ .sidebar{
+ 	border-left: 1px dotted #9F9DA1;
+
+ }
+ .sidebar h4{
+ 	font-family: 'Playfair Display SC', serif;
+ }
+ .register {
+ 	width: 100%;
+ 	height: auto;
+ 	margin-top: 50px;
+ 	border-top: 1px dotted #9F9DA1;
+ 
+ }
+
+ .helpful {
+ 	width: 100%;
+ 	height: auto;
+ 	margin-top: 50px;
+ 	border-top: 1px dotted #9F9DA1;
+ 
+ }
+
 /*---------------------------*/
 /*  LOCATIONS   */
 /*---------------------------*/	
-.locations {
-	padding-top: 75px;
-	display: inline-block;
-	background-color: #FFFFFF;
-	margin-bottom: 50px;
-}
-.locations h3{
+
+.ceremony h3{
 	font-family: 'Playfair Display SC', serif;
 }
-.locations p{
-	padding-top: 10px;
-	text-align: center;
-}
-.ceremony {
-	background-color: #A4B5A6;
-	
 
+.ceremony {
+	margin-top: 100px;
+	border-bottom: 1px dotted #9F9DA1;
+  	
 }
 .ceremony img { 
 	outline: 1px solid white;
   	outline-offset: -6px;
+  	
 }
 
 .reception {
-	background-color: #A4B5A6;
-	
+	margin-top: 75px;
+	border-bottom: 1px dotted #9F9DA1;
+}
+.reception h3{
+	font-family: 'Playfair Display SC', serif;
 }
 .reception img { 
 	outline: 1px solid white;
@@ -240,7 +338,7 @@ span.countdown_amount {
 /*  MAP   */
 /*---------------------------*/	
  .map{
- 	margin: 30px 5px 20px 5px;
+ 	margin: 100px 5px 20px 5px;
 
  }
 
@@ -250,101 +348,37 @@ span.countdown_amount {
  	margin-top: 20px;
  	outline: 1px solid white;
   	outline-offset: -6px;
-  	font-family: 'Raleway', sans-serif;
   	padding-top: 10px;
   	padding-bottom: 10px;
-
  }
 
  .legend h3 {
  	font-family: 'Playfair Display SC', serif;
- 	color: #FFFFFF;
- 	text-align: center;
-
- }
-
-/*---------------------------*/
-/*  WEEKEND PLANS   */
-/*---------------------------*/	
-.plans {
- 	background-color: #D1E0D6;
- 	height: auto;
  	
- 	font-family: 'Raleway', sans-serif;
- 	padding-bottom: 30px;
- 	line-height: 1.65;
-
- 	
- }
-
- .plans h1 {
- 	font-family: 'Parisienne', cursive;
- 	font-size: 50px;
  	text-align: center;
- 	padding-top: 20px;
- 	padding-bottom: 20px;
- 	border-bottom: 1px solid #FFFFFF;
- 	border-top: 1px solid #FFFFFF;
-	background: url("../images/pattern-50xa.png") repeat;
  }
 
- .plans p {
- 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 30px; /* Firefox */
-    column-gap: 30px;
-    padding-bottom: 30px;
- }
-
-@media screen and (max-width: 768px) {
-        .plans p {
-    		-webkit-column-count: 2; /* Chrome, Safari, Opera */
-		    -moz-column-count: 2; /* Firefox */
-		    column-count: 2;
-		    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
-		    -moz-column-gap: 30px; /* Firefox */
-		    column-gap: 30px;
-    }
-}
 @media screen and (max-width: 568px) {
-        .plans p {
-    		-webkit-column-count: 1; /* Chrome, Safari, Opera */
-		    -moz-column-count: 1; /* Firefox */
-		    column-count: 1;
-		    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
-		    -moz-column-gap: 30px; /* Firefox */
-		    column-gap: 30px;
-		    text-align: center;
+        .legend {
+    		text-align: left;
     }
 }
 
-.plans li {
-	text-align: center;
-}
+
 /*---------------------------*/
 /*  FOOTER   */
 /*---------------------------*/	
-.bottom-foot{
-	position: relative;
-	z-index: 1;
-	max-height: 300px;
-	background-image: url("../images/rings-noir.jpg") no-repeat;
-	background-color: 262825;
-}
-
-.bottom-inner {
-	position: absolute;
-	z-index: 10;
+.footer{
+	text-align: center;
+	color: #FFFFFF;
+	max-height: auto;
+	background: url("../images/pattern-10ce.png") repeat;
+	padding-top: 25px;
+	
 }
 
 
- .bottom-foot .middle {
- 	
- 	color: #FFFFFF;
- 	font-family: 'Raleway', sans-serif;
- 	font-weight: 700;
 
- }
+
+
 
